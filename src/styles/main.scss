@@ -3,7 +3,59 @@
 
 body {
   background-color: antiquewhite;
-  color: brown;
+  color: white;
   text-align: center;
-  margin-top: 100px;
+}
+
+p {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#progress {
+  display: block;
+}
+
+.quad {
+  width: 40vw;
+  height: 30vw;
+  margin: 5px;
+}
+
+#eat {
+  background-color: #27C14E;
+}
+
+#play {
+  background-color: lightblue;
+}
+
+#fight {
+  background-color: #FE6A5D;
+}
+
+#sleep {
+  background-color: #96FFCE;
+}
+
+.fight-img {
+  width: 280px;
+}
+
+.eat-img {
+  width: 350px;
+}
+
+.play-img {
+  width: 320px;
+}
+
+.sleep-img {
+  width: 280px;
 }
