@@ -1,8 +1,16 @@
 import '../styles/main.scss';
+import showEat from './components/eat';
+import showFight from './components/fight';
+import showPlay from './components/play';
+import showSleep from './components/sleep';
+import buttonEvents from './helpers/buttonEvents';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  showEat();
+  showPlay();
+  showFight();
+  showSleep();
+  buttonEvents();
 };
 
 init();
